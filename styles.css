@@ -37,8 +37,34 @@ nav ul {
     display: flex;
     gap: 20px;
     padding: 50px;
+    list-style: none;
 }
 
 nav ul li {
     margin-left: 50px;
 }
+
+nav ul li a {
+    text-decoration: none;
+    color: yellow;
+    font-size: 20px;
+}
+
+nav ul li a:hover{
+    color: white;
+    background-color: rgb(140, 114, 234);
+    margin: auto;
+}
+
+.hero img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+footer {
+    background-color: rgb(23, 15, 52);
+    color: white;
+    text-align: center;
+    padding: 20px;
+}   
